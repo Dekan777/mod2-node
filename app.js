@@ -10,6 +10,12 @@ app.get('/contact/:id', (req, res) => {
     res.send(`<h1>Contact</h1> Параметр: ${req.params.id}`);
 });
 
+// app.patch('/user/:userid', (req, res) => {
+//     const id = req.params.userid;
+//     // виконуємо необхідні дії
+// });
+
+
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
